@@ -1,0 +1,89 @@
+.efb-field-width-100 {
+	width: 100%;
+}
+
+.efb-field-width-80 {
+	width: 80%;
+}
+
+.efb-field-width-75 {
+	width: 75%;
+}
+
+.efb-field-width-66 {
+	width: 66%;
+}
+
+.efb-field-width-60 {
+	width: 60%;
+}
+
+.efb-field-width-50 {
+	width: 50%;
+}
+
+.efb-field-width-40 {
+	width: 40%;
+}
+
+.efb-field-width-33 {
+	width: 33%;
+}
+
+.efb-field-width-25 {
+	width: 25%;
+}
+
+.efb-field-width-20 {
+	width: 20%;
+}
+
+.solaceform-form-button {
+	background: #1c1c1c;
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.solaceform-form-button a {
+	color: #fff;
+}
+
+.solaceform-form label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.solaceform-form input[type='text'],
+.solaceform-form input[type='email'],
+.solaceform-form input[type='url'],
+.solaceform-form input[type='tel'],
+.solaceform-form input[type='number'],
+.solaceform-form input[type='date'],
+.solaceform-form input[type='time'],
+.solaceform-form input[type='password'] {
+	width: 100%;
+}
+
+.solaceform-fields {
+	display: inline-block;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+	.solaceform-fields,
+	.efb-field-width-100,
+	.efb-field-width-80,
+	.efb-field-width-75,
+	.efb-field-width-66,
+	.efb-field-width-60,
+	.efb-field-width-50,
+	.efb-field-width-40,
+	.efb-field-width-33,
+	.efb-field-width-25,
+	.efb-field-width-20 {
+		width: 100%;
+	}
+}

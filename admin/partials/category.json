@@ -1,0 +1,71 @@
+[
+    {
+        "id": [
+            "6"
+        ],
+        "category": "Blog",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/blog/"
+    },
+    {
+        "id": [
+            "9",
+            "15",
+            "17"
+        ],
+        "category": "Business",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/business/"
+    },
+    {
+        "id": [
+            "9",
+            "11",
+            "13"
+        ],
+        "category": "E-Commerce",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/e-commerce/"
+    },
+    {
+        "id": [
+            "6",
+            "15"
+        ],
+        "category": "Education",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/education/"
+    },
+    {
+        "id": [
+            "6"
+        ],
+        "category": "Events",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/events/"
+    },
+    {
+        "id": [
+            "11"
+        ],
+        "category": "Food &amp; Drink",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/food-drink/"
+    },
+    {
+        "id": [
+            "17"
+        ],
+        "category": "News",
+        "type": "gutenberg",
+        "link": "https://solacewp.com/api/demo_category/news/"
+    },
+    {
+        "id": [
+            "13"
+        ],
+        "category": "Tehnology",
+        "type": "elementor",
+        "link": "https://solacewp.com/api/demo_category/tehnology/"
+    }
+]

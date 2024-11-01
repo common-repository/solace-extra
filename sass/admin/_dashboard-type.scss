@@ -1,0 +1,255 @@
+html.wp-toolbar:has(.solace_page_dashboard-type) {
+    // padding-top: 0;
+}
+
+body.solace_page_dashboard-type {
+
+    #adminmenumain,
+    #wpadminbar {
+        // display: none;
+    }
+
+    #wpcontent,
+    #wpfooter {
+        // margin-left: 0;
+        padding-left: 0;
+    }
+
+    #wpbody-content {
+        padding-bottom: 0;
+    }
+
+    #wpfooter {
+        display: none;
+    }
+
+    #update-nag,
+    .update-nag {
+        display: none;
+    }
+
+    .wrap {
+
+        footer.bottom {
+            .mycontainer {
+                .box.center {
+                    display: none;
+                }
+            }
+        } 
+
+        nav {
+            .mycontainer {
+                max-width: $max_width;
+                margin: 0 auto;
+                padding: 0;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }        
+
+        nav {
+            margin-bottom: 0;
+        }
+
+        section.page-builder {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .mycontainer {
+                padding-top: 64px;
+                padding-bottom: 64px;
+                width: 100%;
+
+                h2 {
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 0;
+                    margin-bottom: 65px;
+                    text-align: center;
+                }
+
+                .boxes {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 21px;
+
+                    a {
+                        text-decoration: none;
+                        display: inherit;
+                        width: calc(33.3% - 21px);
+                        height: 363px;
+
+                        .mybox {
+                            width: 100%;
+                        }
+
+                        .elementor {
+                            border-radius: 20px;
+                            background: #FFF;
+                            padding: 63px 77px;
+                            padding: 60px 70px;
+                            padding-bottom: 0;
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            span {
+                                display: block;
+                                color: #000;
+                                font-family: Poppins;
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                margin-top: 36px;
+                                margin-bottom: 46px;
+                                text-align: center;
+                            }
+                        }
+
+                        .gutenberg {
+                            border-radius: 20px;
+                            background: #FFF;
+                            padding: 63px 77px;
+                            padding: 60px 70px;
+                            padding-bottom: 0;
+                            padding-top: 0;
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            span {
+                                display: block;
+                                color: #000;
+                                font-family: Poppins;
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                margin-top: 36px;
+                                margin-bottom: 46px;
+                                text-align: center;
+                            }
+                        }
+
+                        .mybox {
+                            svg {
+                                width: 166px;
+                                height: 166px;
+                            }
+                        }
+                    }
+
+                    a:focus {
+                        box-shadow: unset;
+                    }
+
+                    a.link-coming-soon {
+                        cursor: default;
+                    }
+                }
+            }
+        }
+
+        footer.bottom {
+            margin-top: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    body.solace_page_dashboard-type .wrap section.page-builder .mycontainer {
+        padding: 15px;
+
+        h2 {
+            margin: 0;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .boxes {
+            a {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+
+                .mybox {
+                    width: 250px;
+
+                    span {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    body.solace_page_dashboard-type .wrap footer.bottom {
+        position: unset;
+        bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body.solace_page_dashboard-type .wrap section.page-builder .mycontainer {
+        .boxes {
+
+            .elementor,
+            .gutenberg {
+                width: 100%;
+                height: auto;
+                padding: 30px 20px;
+
+                span {
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    body.solace_page_dashboard-type .wrap footer.bottom .mycontainer {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body.solace_page_dashboard-type .wrap section.page-builder {
+        display: block;
+    }
+    
+    body.solace_page_dashboard-type .wrap section.page-builder .mycontainer {
+        .boxes {
+            a {
+                .mybox {
+                    width: 55%;
+                }
+            }
+        }
+    }
+}

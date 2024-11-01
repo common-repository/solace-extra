@@ -1,0 +1,4269 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Thin.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 100;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-ThinItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-ExtraLight.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 200;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-ExtraLightItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Light.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-LightItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Italic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-MediumItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-SemiBoldItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-ExtraBoldItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-ExtraBold.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-ExtraBoldItalic.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-Black.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Poppins"), url(../fonts/Poppins/Poppins-BlackItalic.ttf) format("truetype");
+  font-display: swap;
+}
+.js #adminmenu .toplevel_page_solace .wp-submenu {
+  display: none;
+}
+
+body.solace_page_dashboard #wpbody-content .notice,
+body.solace_page_dashboard-sitebuilder #wpbody-content .notice,
+body.solace_page_dashboard-video #wpbody-content .notice,
+body.solace_page_dashboard-starter-templates #wpbody-content .notice,
+body.solace_page_dashboard-step5 #wpbody-content .notice,
+body.solace_page_dashboard-step6 #wpbody-content .notice,
+body.solace_page_dashboard-progress #wpbody-content .notice,
+body.solace_page_dashboard-congratulations #wpbody-content .notice {
+  display: none !important;
+}
+
+body.solace_page_dashboard-starter-templates a:focus,
+body.solace_page_dashboard-starter-templates button:focus,
+body.solace_page_dashboard-starter-templates button.button:focus,
+body.solace_page_dashboard-type a:focus,
+body.solace_page_dashboard-type button:focus,
+body.solace_page_dashboard-type button.button:focus,
+body.solace_page_dashboard-video a:focus,
+body.solace_page_dashboard-video button:focus,
+body.solace_page_dashboard-video button.button:focus,
+body.toplevel_page_solace a:focus,
+body.toplevel_page_solace button:focus,
+body.toplevel_page_solace button.button:focus,
+body.solace_page_dashboard-step5 a:focus,
+body.solace_page_dashboard-step5 button:focus,
+body.solace_page_dashboard-step5 button.button:focus,
+body.solace_page_dashboard-step6 a:focus,
+body.solace_page_dashboard-step6 button:focus,
+body.solace_page_dashboard-step6 button.button:focus,
+body.solace_page_dashboard a:focus,
+body.solace_page_dashboard button:focus,
+body.solace_page_dashboard button.button:focus,
+body.solace_page_dashboard-sitebuilder a:focus,
+body.solace_page_dashboard-sitebuilder button:focus,
+body.solace_page_dashboard-sitebuilder button.button:focus,
+body.solace_page_dashboard-progress a:focus,
+body.solace_page_dashboard-progress button:focus,
+body.solace_page_dashboard-progress button.button:focus,
+body.solace_page_dashboard-congratulations a:focus,
+body.solace_page_dashboard-congratulations button:focus,
+body.solace_page_dashboard-congratulations button.button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+}
+body.solace_page_dashboard-starter-templates .wrap,
+body.solace_page_dashboard-type .wrap,
+body.solace_page_dashboard-video .wrap,
+body.toplevel_page_solace .wrap,
+body.solace_page_dashboard-step5 .wrap,
+body.solace_page_dashboard-step6 .wrap,
+body.solace_page_dashboard .wrap,
+body.solace_page_dashboard-sitebuilder .wrap,
+body.solace_page_dashboard-progress .wrap,
+body.solace_page_dashboard-congratulations .wrap {
+  font-family: Poppins;
+  background: #f1f1f1;
+  padding: 0;
+  margin: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap div.notice,
+body.solace_page_dashboard-type .wrap div.notice,
+body.solace_page_dashboard-video .wrap div.notice,
+body.toplevel_page_solace .wrap div.notice,
+body.solace_page_dashboard-step5 .wrap div.notice,
+body.solace_page_dashboard-step6 .wrap div.notice,
+body.solace_page_dashboard .wrap div.notice,
+body.solace_page_dashboard-sitebuilder .wrap div.notice,
+body.solace_page_dashboard-progress .wrap div.notice,
+body.solace_page_dashboard-congratulations .wrap div.notice {
+  display: none !important;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav,
+body.solace_page_dashboard-type .wrap > nav,
+body.solace_page_dashboard-video .wrap > nav,
+body.toplevel_page_solace .wrap > nav,
+body.solace_page_dashboard-step5 .wrap > nav,
+body.solace_page_dashboard-step6 .wrap > nav,
+body.solace_page_dashboard .wrap > nav,
+body.solace_page_dashboard-sitebuilder .wrap > nav,
+body.solace_page_dashboard-progress .wrap > nav,
+body.solace_page_dashboard-congratulations .wrap > nav {
+  background: #000F44;
+  margin-bottom: 28px;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer,
+body.solace_page_dashboard-type .wrap > nav .mycontainer,
+body.solace_page_dashboard-video .wrap > nav .mycontainer,
+body.toplevel_page_solace .wrap > nav .mycontainer,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer,
+body.solace_page_dashboard .wrap > nav .mycontainer,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 43px;
+  height: 79px;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-logo a,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-logo a,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-logo a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-logo a .logo2,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-logo a .logo2,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-logo a .logo2 {
+  margin-right: 15px;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-logo a .logo2 h1,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-logo a .logo2 h1 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-logo a .logo2 img,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-logo a .logo2 img {
+  height: 50px;
+  padding: 5px 0 0 0;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-logo a div.version,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-logo a div.version,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-logo a div.version {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 34px;
+  flex-shrink: 0;
+  background: #F4F4F4;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-menu ul,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-menu ul,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 50px;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-menu ul li,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-menu ul li,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-menu ul li {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-menu ul li a,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-menu ul li a,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-menu ul li a.pro,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-menu ul li a.pro {
+  border-radius: 100px;
+  background: #FF8E00;
+  padding: 3px 19px;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-type .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-video .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.toplevel_page_solace .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-step5 .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-step6 .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-progress .wrap > nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-congratulations .wrap > nav .mycontainer .box-menu ul li.active-custom::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #ff8d00;
+  position: relative;
+  top: 24px;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom,
+body.solace_page_dashboard-type .wrap footer.bottom,
+body.solace_page_dashboard-video .wrap footer.bottom,
+body.toplevel_page_solace .wrap footer.bottom,
+body.solace_page_dashboard-step5 .wrap footer.bottom,
+body.solace_page_dashboard-step6 .wrap footer.bottom,
+body.solace_page_dashboard .wrap footer.bottom,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom,
+body.solace_page_dashboard-progress .wrap footer.bottom,
+body.solace_page_dashboard-congratulations .wrap footer.bottom {
+  display: none;
+  padding: 20px;
+  margin-top: 30px;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 8px;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer .box,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer .box {
+  margin: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box a,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer .box a,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer .box a {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px 0;
+  color: #135e96;
+  color: #000;
+  text-decoration: none;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box a svg,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer .box a svg,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer .box a svg {
+  width: 17px;
+  height: 17px;
+  fill: #000;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box a span,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer .box a span,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer .box a span {
+  display: inline-block;
+  font-size: 17px;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box.left a svg,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer .box.left a svg,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer .box.left a svg {
+  margin-right: 8px;
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box.right a svg,
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-step5 .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-step6 .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer .box.right a svg,
+body.solace_page_dashboard-congratulations .wrap footer.bottom .mycontainer .box.right a svg {
+  margin-left: 8px;
+}
+
+body.toplevel_page_solace .wrap footer.bottom .mycontainer {
+  max-width: calc(90% + 38px);
+}
+
+@media only screen and (max-width: 1200px) {
+  body.solace_page_dashboard-starter-templates .wrap nav div.mycontainer,
+  body.solace_page_dashboard-type .wrap nav div.mycontainer,
+  body.solace_page_dashboard-video .wrap nav div.mycontainer,
+  body.solace_page_dashboard-step5 .wrap nav div.mycontainer,
+  body.solace_page_dashboard-step6 .wrap nav div.mycontainer,
+  body.toplevel_page_solace .wrap nav div.mycontainer,
+  body.solace_page_dashboard .wrap nav div.mycontainer,
+  body.solace_page_dashboard-sitebuilder .wrap nav div.mycontainer,
+  body.solace_page_dashboard-progress .wrap nav div.mycontainer,
+  body.solace_page_dashboard-congratulations .wrap nav div.mycontainer {
+    height: auto;
+    gap: 15px;
+    padding: 25px 0;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  body.solace_page_dashboard-starter-templates .wrap nav div.mycontainer,
+  body.solace_page_dashboard-type .wrap nav div.mycontainer,
+  body.solace_page_dashboard-video .wrap nav div.mycontainer,
+  body.solace_page_dashboard-step5 .wrap nav div.mycontainer,
+  body.solace_page_dashboard-step6 .wrap nav div.mycontainer,
+  body.toplevel_page_solace .wrap nav div.mycontainer,
+  body.solace_page_dashboard .wrap nav div.mycontainer,
+  body.solace_page_dashboard-sitebuilder .wrap nav div.mycontainer,
+  body.solace_page_dashboard-progress .wrap nav div.mycontainer,
+  body.solace_page_dashboard-congratulations .wrap nav div.mycontainer {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-type .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-video .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-step5 .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-step6 .wrap nav div.mycontainer div.box-menu ul,
+  body.toplevel_page_solace .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-sitebuilder .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-progress .wrap nav div.mycontainer div.box-menu ul,
+  body.solace_page_dashboard-congratulations .wrap nav div.mycontainer div.box-menu ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-type .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-video .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-step5 .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-step6 .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.toplevel_page_solace .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-sitebuilder .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-progress .wrap nav div.mycontainer div.box-menu ul li.active::after,
+  body.solace_page_dashboard-congratulations .wrap nav div.mycontainer div.box-menu ul li.active::after {
+    top: 2px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body.solace_page_dashboard-starter-templates .wrap footer.bottom,
+  body.solace_page_dashboard-type .wrap footer.bottom,
+  body.solace_page_dashboard-video .wrap footer.bottom,
+  body.toplevel_page_solace .wrap footer.bottom,
+  body.solace_page_dashboard .wrap footer.bottom,
+  body.solace_page_dashboard-sitebuilder .wrap footer.bottom,
+  body.solace_page_dashboard-progress .wrap footer.bottom {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 782px) {
+  body.solace_page_dashboard-starter-templates .wrap footer.bottom,
+  body.solace_page_dashboard-type .wrap footer.bottom,
+  body.solace_page_dashboard-video .wrap footer.bottom,
+  body.solace_page_dashboard-step5 .wrap footer.bottom,
+  body.solace_page_dashboard-step6 .wrap footer.bottom,
+  body.toplevel_page_solace .wrap footer.bottom,
+  body.solace_page_dashboard .wrap footer.bottom,
+  body.solace_page_dashboard-sitebuilder .wrap footer.bottom,
+  body.solace_page_dashboard-progress .wrap footer.bottom,
+  body.solace_page_dashboard-congratulations .wrap footer.bottom {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body.solace_page_dashboard-starter-templates #wpbody,
+  body.solace_page_dashboard-type #wpbody,
+  body.solace_page_dashboard-video #wpbody,
+  body.solace_page_dashboard-step5 #wpbody,
+  body.solace_page_dashboard-step6 #wpbody,
+  body.toplevel_page_solace #wpbody,
+  body.solace_page_dashboard #wpbody,
+  body.solace_page_dashboard-sitebuilder #wpbody,
+  body.solace_page_dashboard-progress #wpbody,
+  body.solace_page_dashboard-congratulations #wpbody {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 580px) {
+  body.solace_page_dashboard-starter-templates .wrap footer.bottom .mycontainer,
+  body.solace_page_dashboard-type .wrap footer.bottom .mycontainer,
+  body.solace_page_dashboard-video .wrap footer.bottom .mycontainer,
+  body.toplevel_page_solace .wrap footer.bottom .mycontainer,
+  body.solace_page_dashboard .wrap footer.bottom .mycontainer,
+  body.solace_page_dashboard-sitebuilder .wrap footer.bottom .mycontainer,
+  body.solace_page_dashboard-progress .wrap footer.bottom .mycontainer {
+    gap: 15px;
+    align-items: center;
+  }
+}
+body.solace_page_dashboard-type #wpcontent,
+body.solace_page_dashboard-type #wpfooter {
+  padding-left: 0;
+}
+body.solace_page_dashboard-type #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-type #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-type #update-nag,
+body.solace_page_dashboard-type .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-type .wrap footer.bottom .mycontainer .box.center {
+  display: none;
+}
+body.solace_page_dashboard-type .wrap nav .mycontainer {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body.solace_page_dashboard-type .wrap nav {
+  margin-bottom: 0;
+}
+body.solace_page_dashboard-type .wrap section.page-builder {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 100%;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 65px;
+  text-align: center;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a {
+  text-decoration: none;
+  display: inherit;
+  width: calc(33.3% - 21px);
+  height: 363px;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .mybox {
+  width: 100%;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .elementor {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 63px 77px;
+  padding: 60px 70px;
+  padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .elementor span {
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 36px;
+  margin-bottom: 46px;
+  text-align: center;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .gutenberg {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 63px 77px;
+  padding: 60px 70px;
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .gutenberg span {
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 36px;
+  margin-bottom: 46px;
+  text-align: center;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .mybox svg {
+  width: 166px;
+  height: 166px;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a:focus {
+  box-shadow: unset;
+}
+body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a.link-coming-soon {
+  cursor: default;
+}
+body.solace_page_dashboard-type .wrap footer.bottom {
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 1150px) {
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer {
+    padding: 15px;
+  }
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 250px;
+  }
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .mybox span {
+    width: 100%;
+  }
+  body.solace_page_dashboard-type .wrap footer.bottom {
+    position: unset;
+    bottom: unset;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes .elementor,
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes .gutenberg {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes .elementor span,
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes .gutenberg span {
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 580px) {
+  body.solace_page_dashboard-type .wrap footer.bottom .mycontainer {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body.solace_page_dashboard-type .wrap section.page-builder {
+    display: block;
+  }
+  body.solace_page_dashboard-type .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 55%;
+  }
+}
+html.wp-toolbar:has(.solace_page_dashboard-sitebuilder) {
+  padding-top: 0;
+}
+
+body.solace_page_dashboard-sitebuilder #adminmenumain,
+body.solace_page_dashboard-sitebuilder #wpadminbar {
+  display: none;
+}
+body.solace_page_dashboard-sitebuilder #wpcontent,
+body.solace_page_dashboard-sitebuilder #wpfooter {
+  margin-left: 0;
+  padding-left: 0;
+}
+body.solace_page_dashboard-sitebuilder #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-sitebuilder #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-sitebuilder #update-nag,
+body.solace_page_dashboard-sitebuilder .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-sitebuilder .wrap {
+  background-color: #001644;
+}
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer {
+  padding: 0;
+}
+body.solace_page_dashboard-sitebuilder .wrap > nav {
+  margin-bottom: 0;
+}
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li.active::after,
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li.active-custom::after {
+  content: none;
+}
+body.solace_page_dashboard-sitebuilder .wrap > nav .mycontainer .box-menu ul li:nth-child(2)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #ff8d00;
+  position: relative;
+  top: 24px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder {
+  display: flex;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts .label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts .button {
+  background-color: #102C5F;
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 0;
+  display: flex;
+  align-items: center;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts .button.all {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts .button img {
+  margin-right: 10px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts .button:focus, body.solace_page_dashboard-sitebuilder .solace-sitebuilder .parts .button:hover {
+  box-shadow: 0 0 0 2px #FF9400;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list {
+  padding: 50px;
+  background: #F1F1F1;
+  width: 100%;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 307px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  height: 307px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card-header h3 {
+  margin-top: 0;
+  font-size: 1.25em;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card-body {
+  margin: 0 auto;
+  top: 50%;
+  position: relative;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card-footer .title {
+  color: #000;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .card-footer.active .title {
+  color: #fff;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list input:checked + .slider {
+  background-color: #FF9400;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list input:checked + .slider:before {
+  transform: translateX(14px);
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .headlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .headlist .addnew {
+  background-color: #ff9400;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 40px 5px 40px;
+  height: 39px;
+  border: none;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view {
+  background-color: #fff;
+  border-radius: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .solace-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .solace-list-item .group.instances {
+  display: flex;
+  align-items: center;
+  background-color: #F0F3FF;
+  padding-left: 11px;
+  padding-right: 0px;
+  border-radius: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .solace-list-item .group.instances .label {
+  font-size: 12px;
+  font-weight: 300;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .solace-list-item .group.action {
+  display: flex;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column {
+  flex: 1;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column.title-column {
+  font-weight: bold;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column .button {
+  border-radius: 30px;
+  font-size: 12px;
+  background-color: #0E305F;
+  color: #fff;
+  height: 30px;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column .button.delete {
+  color: #fff;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column .button.rename, body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column .button.edit-page {
+  color: #fff;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .list-column .switch {
+  display: inline-block;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .list .solace-list-view .status-column {
+  display: flex;
+  justify-content: flex-end;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .delete-condition {
+  color: #FF9400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .delete-condition:hover {
+  color: #a00; /* Warna saat hover */
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: none;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background: #fff;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  z-index: 1001; /* Ensure it's above the overlay */
+  display: none;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-content {
+  position: relative;
+  width: 600px;
+  text-align: center;
+  /* Close button styling */
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-content .desc {
+  display: block;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-content #add-condition {
+  background-color: #0e305f;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 20px;
+  border-radius: 30px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-content #conditions-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-content #save-conditions {
+  background-color: #ff9400;
+  border: none;
+  padding-left: 30px;
+  padding-right: 20px;
+  border-radius: 30px;
+  color: #fff;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-content .close-popup {
+  position: absolute;
+  top: -22px;
+  right: 33px;
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #0e305f;
+  border-radius: 100px;
+  font-weight: 300;
+  padding: 2px 5px 0px 5px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .condition-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .condition-item .condition-exclude-include-select,
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .condition-item select.condition-select {
+  border: 0;
+  background-color: #F0F3FF;
+  border-radius: 30px;
+  padding: 5px 30px 5px 30px;
+  font-size: 12px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .condition-item select.condition-select {
+  padding-right: 100px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .solace-popup-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .preview-container {
+  margin-top: 10px; /* Space above the preview */
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the iframe horizontally */
+}
+body.solace_page_dashboard-sitebuilder .solace-sitebuilder .preview-container iframe {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  border: none;
+}
+
+body.solace_page_dashboard-video {
+  background: #fff;
+}
+body.solace_page_dashboard-video #wpcontent,
+body.solace_page_dashboard-video #wpfooter {
+  padding-left: 0;
+}
+body.solace_page_dashboard-video #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-video #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-video #update-nag,
+body.solace_page_dashboard-video .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-video .wrap {
+  box-sizing: border-box;
+}
+body.solace_page_dashboard-video .wrap footer.bottom .mycontainer .box.center {
+  display: none;
+}
+body.solace_page_dashboard-video .wrap nav .mycontainer {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 0;
+}
+body.solace_page_dashboard-video .wrap nav {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  background: #f1f1f1;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .left {
+  box-sizing: border-box;
+  padding: 40px;
+  padding-left: 5%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .left .iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  padding-top: 75%; /* 12:9 Aspect Ratio */
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .left .iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .right {
+  box-sizing: border-box;
+  background: #fff;
+  width: 50%;
+  padding: 90px;
+  padding-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .right h2 {
+  margin: 0;
+  margin-bottom: 34px;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .right p.desc {
+  padding: 0;
+  padding-right: 23px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 23px;
+  margin-bottom: 66px;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image img {
+  max-width: 250px;
+  max-width: 225px;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .box-btn {
+  margin-top: 71px;
+  width: 100%;
+  z-index: 2;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer .box-btn a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 384px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #FD8E07;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body.solace_page_dashboard-video .wrap section.video .mycontainer img.decor {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  max-width: 400px;
+  z-index: 0;
+}
+body.solace_page_dashboard-video .wrap footer.bottom {
+  margin-top: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image img {
+    max-width: 212px;
+  }
+}
+@media only screen and (max-width: 1420px) {
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right {
+    padding: 90px 40px;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer img.decor {
+    bottom: -60px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html.wp-toolbar:has(.solace_page_dashboard-starter-templates) {
+    padding-top: 0;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer {
+    padding: 0;
+    padding-bottom: 70px;
+    flex-direction: column-reverse;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .left,
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right {
+    width: 100%;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .left iframe {
+    width: 85%;
+    margin: 0 auto;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right {
+    padding: 50px 47px;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image img {
+    width: unset;
+    max-width: unset;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .box-btn {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .box-btn a {
+    width: 200px;
+    height: 45px;
+    margin: 0;
+    font-size: 15px;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer img.decor {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body.solace_page_dashboard-video .wrap section.video .mycontainer {
+    padding: 0;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image {
+    justify-content: space-between;
+    gap: 16px;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image img {
+    width: calc(50% - 16px);
+  }
+}
+@media only screen and (max-width: 580px) {
+  body.solace_page_dashboard-video .wrap {
+    padding-bottom: 100px;
+  }
+  body.solace_page_dashboard-video .wrap footer.bottom .mycontainer {
+    flex-direction: row;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .left,
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right {
+    padding: 30px 20px;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .left iframe {
+    width: 100%;
+  }
+  body.solace_page_dashboard-video .wrap section.video .mycontainer .right .boxes-image {
+    margin-bottom: 30px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html.wp-toolbar:has(.solace_page_dashboard-step5) {
+  padding-top: 0;
+  margin-top: 0 !important;
+}
+
+body.solace_page_dashboard-step5 #wpwrap {
+  margin-top: 22px;
+}
+body.solace_page_dashboard-step5 #adminmenumain,
+body.solace_page_dashboard-step5 #wpadminbar {
+  display: none;
+}
+body.solace_page_dashboard-step5 #wpcontent,
+body.solace_page_dashboard-step5 #wpfooter {
+  margin-left: 0;
+  padding-left: 0;
+}
+body.solace_page_dashboard-step5 #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-step5 #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-step5 #update-nag,
+body.solace_page_dashboard-step5 .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-step5 .swal-modal .swal-icon.swal-icon--warning {
+  border-color: #ff8d00 !important;
+  width: 70px;
+  height: 70px;
+}
+body.solace_page_dashboard-step5 .swal-modal .swal-icon.swal-icon--warning .swal-icon--warning__body {
+  height: 39px;
+}
+body.solace_page_dashboard-step5 .swal-modal .swal-icon.swal-icon--warning span.swal-icon--warning__body,
+body.solace_page_dashboard-step5 .swal-modal .swal-icon.swal-icon--warning span.swal-icon--warning__dot {
+  background: #ff8d00;
+}
+body.solace_page_dashboard-step5 .swal-modal .swal-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+body.solace_page_dashboard-step5 .swal-modal .swal-footer button {
+  background: #ff8d00;
+  border-radius: 50px;
+  padding: 5px 50px;
+  font-weight: 900;
+  height: 42px;
+  line-height: 1em;
+}
+body.solace_page_dashboard-step5.js #adminmenu {
+  display: none;
+}
+body.solace_page_dashboard-step5.js #adminmenu .toplevel_page_solace .wp-submenu {
+  display: none;
+}
+body.solace_page_dashboard-step5 > #wpwrap > #wpcontent {
+  margin-top: -22px;
+}
+body.solace_page_dashboard-step5 .wrap-step5 {
+  background: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+body.solace_page_dashboard-step5 .wrap-step5 pre {
+  display: none;
+}
+body.solace_page_dashboard-step5 .wrap-step5:not(.preview) {
+  font-family: "Poppins", sans-serif;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav {
+  background: #000F44;
+  margin: 0;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  height: 74px;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-logo a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-logo a .logo1 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-logo a .logo2 {
+  margin-right: 15px;
+  font-family: "Poppins", sans-serif;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-logo a .logo2 h1 {
+  color: #FFF;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-logo a .logo2 img {
+  height: 50px;
+  padding: 5px 0 0 0;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-logo a div.version {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 34px;
+  flex-shrink: 0;
+  background: #F4F4F4;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 50px;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li {
+  list-style-type: none;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li a.pro {
+  border-radius: 100px;
+  background: #FF8E00;
+  padding: 3px 19px;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #ff8d00;
+  position: relative;
+  top: 16px;
+}
+body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li.active-custom::after {
+  top: 21px;
+}
+@media (max-width: 1410px) {
+  body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+body.solace_page_dashboard-step5 .loading-gif {
+  width: 250px;
+  height: auto;
+}
+body.solace_page_dashboard-step5 .simple-plugin-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 90%;
+  width: 90%;
+  margin: 0 auto;
+}
+body.solace_page_dashboard-step5 .simple-plugin-columns .iframeContainer {
+  position: relative;
+  width: 100%;
+  height: 88vh !important;
+  overflow: hidden !important;
+  --e-transform-scale: 0.6;
+  background-color: var(--e-global-color-9d6aead);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 328px auto;
+}
+body.solace_page_dashboard-step5 .simple-plugin-columns .iframeContainer iframe {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+}
+@media (max-width: 1412px) {
+  body.solace_page_dashboard-step5 .simple-plugin-columns {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    padding-top: 20px;
+  }
+}
+body.solace_page_dashboard-step5 .simple-plugin-columns .f_group {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  color: #000 !important;
+  border-radius: 10px;
+}
+body.solace_page_dashboard-step5 #previewframe {
+  width: 100%;
+  height: 500px;
+}
+body.solace_page_dashboard-step5 .col-left {
+  width: 20%;
+  min-width: 350px;
+  position: sticky;
+  top: 0px;
+}
+body.solace_page_dashboard-step5 .col-right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 350px);
+}
+body.solace_page_dashboard-step5 .col-right .urlbar {
+  width: 100%;
+}
+body.solace_page_dashboard-step5 .col-right .pre-preview {
+  overflow: auto;
+  overflow-x: hidden;
+  height: 84vh;
+  border-left: 1px solid #dadfe6;
+  border-right: 1px solid #dadfe6;
+  border-bottom: 1px solid #dadfe6;
+}
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview {
+  float: inherit;
+  position: relative;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview > .wrapper {
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview.page > .wrapper {
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview.page > .wrapper .e-con-full.e-parent {
+  transform: none;
+  width: auto;
+}
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview .site-footer .footer-main,
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview .site-footer .footer-top,
+body.solace_page_dashboard-step5 .col-right .pre-preview .preview .site-footer .footer-bottom {
+  margin-top: -2px;
+}
+body.solace_page_dashboard-step5 .selected-demo {
+  display: flex;
+  padding: 20px 0 20px 20px;
+  flex-direction: column;
+}
+body.solace_page_dashboard-step5 .demotitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  color: #000;
+}
+body.solace_page_dashboard-step5 .labeldemo {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+body.solace_page_dashboard-step5 .palette-buttons {
+  /* background-color: #e3e3e3; */
+  background-color: #fff;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+body.solace_page_dashboard-step5 .palette-buttons .logo {
+  margin-bottom: 20px;
+}
+body.solace_page_dashboard-step5 .palette-buttons button#upload-media-button {
+  background-color: #fff;
+  border: 0;
+  color: #838383;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+body.solace_page_dashboard-step5 .palette-buttons button#upload-media-button:focus, body.solace_page_dashboard-step5 .palette-buttons button#upload-media-button:focus-visible {
+  border: 0;
+}
+body.solace_page_dashboard-step5 .palette-buttons hr {
+  margin: 0;
+  border-top: 1px solid #EAEAEA;
+}
+body.solace_page_dashboard-step5 .colorlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+body.solace_page_dashboard-step5 .colorlist .color.active {
+  outline: 4px solid #ff8c02;
+}
+body.solace_page_dashboard-step5 .fontlist {
+  padding: 20px 20px 0 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+  /* CSS Untuk Tooltip */
+}
+body.solace_page_dashboard-step5 .fontlist .font.active {
+  outline: 4px solid #ff8c02;
+  border-radius: 10px;
+}
+body.solace_page_dashboard-step5 .fontlist .tooltip {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 47px;
+}
+body.solace_page_dashboard-step5 .fontlist .tooltip:hover {
+  outline: 4px solid #ff8c02;
+  border-radius: 10px;
+}
+body.solace_page_dashboard-step5 .fontlist .tooltip::before {
+  content: attr(fontname);
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 1;
+  bottom: 46px;
+  font-size: 12px;
+  font-family: Poppins;
+  width: 150px;
+  text-align: center;
+}
+body.solace_page_dashboard-step5 .fontlist .tooltip:hover::before {
+  visibility: visible;
+  opacity: 1;
+  z-index: 2;
+  width: 150px;
+  text-align: center;
+}
+body.solace_page_dashboard-step5 .font {
+  width: 100%;
+}
+body.solace_page_dashboard-step5 .font img {
+  width: 63px;
+}
+body.solace_page_dashboard-step5 .color {
+  height: 38px;
+  border-radius: 30px;
+}
+body.solace_page_dashboard-step5 .colorlist .color:hover,
+body.solace_page_dashboard-step5 .colorlist .color:active,
+body.solace_page_dashboard-step5 .colorlist .color:visited {
+  border-radius: 30px;
+  outline: 4px solid #ff8c02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step5 .f_group:hover,
+body.solace_page_dashboard-step5 .f_group:active,
+body.solace_page_dashboard-step5 .f_group:visited {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step5 a#default,
+body.solace_page_dashboard-step5 .color {
+  display: flex;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 38px;
+  padding: 5px;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-step5 .f_group {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step5 span.color_hex {
+  width: 27px;
+  display: block;
+  height: 27px;
+  border-radius: 100%;
+  border: 1px solid #eaeaea;
+}
+body.solace_page_dashboard-step5 .frame {
+  position: absolute;
+  /* border: 10px solid red; */
+  /* z-index: 9; */
+  /* border-radius: 30px; */
+  /* width: 100%;
+  height: 100%;
+  left: -10px;
+  top: -10px; */
+}
+body.solace_page_dashboard-step5 .preview div.builder-item::before {
+  content: "";
+  display: none;
+}
+body.solace_page_dashboard-step5 .logo-buttons {
+  display: flex;
+  padding: 10px 0 10px 20px;
+  align-items: center;
+}
+body.solace_page_dashboard-step5 .logo-buttons #upload-logo-form {
+  display: flex;
+}
+body.solace_page_dashboard-step5 .logo-buttons .logo_default {
+  align-items: center;
+  /* display: flex; */
+}
+body.solace_page_dashboard-step5 .logo_default {
+  display: none;
+}
+body.solace_page_dashboard-step5 .palette-buttons .logo {
+  max-width: 300px;
+  display: none;
+  margin: auto;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+body.solace_page_dashboard-step5 span.titlelogo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  height: 26px;
+  font-size: 16px;
+}
+body.solace_page_dashboard-step5 .logo-buttons #upload-logo-form input {
+  color: #939393 !important;
+  background: transparent;
+  text-decoration: underline;
+  padding: 0;
+  padding-left: 20px;
+}
+body.solace_page_dashboard-step5 .box-delete label {
+  font-family: "Poppins", sans-serif;
+  color: #3c434a;
+}
+body.solace_page_dashboard-step5 .box-required-plugin-elementor,
+body.solace_page_dashboard-step5 .box-required-plugin-ecommerce {
+  padding: 0;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.6;
+}
+body.solace_page_dashboard-step5 .box-required-plugin-elementor input,
+body.solace_page_dashboard-step5 .box-required-plugin-ecommerce input {
+  position: relative;
+  top: 0.4em;
+}
+body.solace_page_dashboard-step5 .box-required-plugin-elementor label,
+body.solace_page_dashboard-step5 .box-required-plugin-ecommerce label {
+  font-family: "Poppins", sans-serif;
+  color: #3c434a;
+  font-size: 15px;
+  position: relative;
+  bottom: 2px;
+  left: 5px;
+}
+body.solace_page_dashboard-step5 .box-required-plugin-elementor a,
+body.solace_page_dashboard-step5 .box-required-plugin-ecommerce a {
+  position: relative;
+  left: 3px;
+  top: 2px;
+  color: #2271b1;
+  text-decoration: none;
+}
+body.solace_page_dashboard-step5 .box-required-plugin-elementor.collapse {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-step5 span.titlecolor {
+  font-weight: 800;
+  display: block;
+  color: #000;
+  padding: 20px 20px 0 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body.solace_page_dashboard-step5 .loading-overlay {
+  /* display:none; */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body.solace_page_dashboard-step5 .loading-overlay-preview {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+body.solace_page_dashboard-step5 a#solace-extra-continue,
+body.solace_page_dashboard-step5 a#solace-extra-continue-disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+  font-family: "Poppins", sans-serif;
+  background-color: #FF8F00;
+  padding: 5px 50px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+  flex-basis: 80%;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+body.solace_page_dashboard-step5 a#solace-extra-continue-disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+body.solace_page_dashboard-step5 a#solace-extra-continue.active {
+  opacity: 1;
+  cursor: pointer;
+}
+body.solace_page_dashboard-step5 div.box-delete {
+  padding: 20px 0;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body.solace_page_dashboard-step5 div.box-delete label {
+  font-size: 15px;
+  position: relative;
+  bottom: 2px;
+  left: 5px;
+}
+body.solace_page_dashboard-step5 div.box-required-plugin {
+  padding-top: 0;
+}
+body.solace_page_dashboard-step5 div#solace-extra-action-button {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  height: 42px;
+}
+body.solace_page_dashboard-step5 .media-modal-close:hover {
+  background: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content ::-moz-selection {
+  background-color: unset;
+  color: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content ::selection {
+  background-color: unset;
+  color: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content h1 {
+  padding: 0 16px;
+  font-size: 22px;
+  line-height: 2.27272727;
+  margin: 0;
+  font-weight: 600;
+  color: #1d2327;
+  font-family: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content .media-sidebar h2 {
+  position: relative;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #646970;
+  margin: 24px 0 8px;
+}
+body.solace_page_dashboard-step5 .media-modal-content h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0;
+  color: #1d2327;
+}
+body.solace_page_dashboard-step5 .media-modal-content h2.media-attachments-filter-heading {
+  font-size: 13px;
+  font-family: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content h2.upload-instructions {
+  font-family: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+body.solace_page_dashboard-step5 .media-modal-content input[type=search] {
+  height: 30px;
+}
+body.solace_page_dashboard-step5 .media-modal-content .media-menu-item {
+  font-family: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content .media-menu-item.active {
+  font-family: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content .media-menu-item.active :hover {
+  color: unset !important;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button {
+  font-family: unset;
+  font-size: unset;
+  background: #2271b1;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button.button-small {
+  color: #2271b1;
+  background-color: #f6f7f7;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button.button-small:hover {
+  background: #f0f0f1;
+  border-color: #0a4b78;
+  color: #0a4b78;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button.load-more:hover {
+  background-color: #135e96;
+  border-color: #135e96;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button.load-more-jump {
+  color: #fff;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button.media-button:hover {
+  background: #135e96;
+  border-color: #135e96;
+  color: #fff;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button-link {
+  font-size: unset;
+  font-family: unset;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button-hero {
+  background: #f6f7f7;
+  color: #2271b1;
+}
+body.solace_page_dashboard-step5 .media-modal-content .button-hero:hover {
+  background: #f0f0f1;
+  border-color: #0a4b78;
+  color: #0a4b78;
+}
+body.solace_page_dashboard-step5 .media-router .media-menu-item {
+  color: #1d2327 !important;
+}
+body.solace_page_dashboard-step5 .media-button {
+  background: #2271b1;
+  color: #fff;
+}
+body.solace_page_dashboard-step5 .media-button:disabled {
+  color: #a7aaad !important;
+  background: #f6f7f7 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li.active-custom::after {
+    top: 37px;
+  }
+  body.solace_page_dashboard-step5 .simple-plugin-columns {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body.solace_page_dashboard-step5 .wrap-step5 > nav .mycontainer .box-menu ul li.active-custom::after {
+    top: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body.solace_page_dashboard-step5 .wrap-step5 {
+    height: auto;
+  }
+  body.solace_page_dashboard-step5 .simple-plugin-columns {
+    flex-direction: column;
+    gap: 20px;
+    height: 100% !important;
+    max-width: 100%;
+  }
+  body.solace_page_dashboard-step5 .simple-plugin-columns .col-right {
+    width: 100%;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer {
+    padding: 15px;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 250px;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes a .mybox span {
+    width: 100%;
+  }
+  body.solace_page_dashboard-step5 .col-left {
+    position: unset;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes .elementor,
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes .gutenberg {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes .elementor span,
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes .gutenberg span {
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body.solace_page_dashboard-step5 .wrap section.page-builder {
+    display: block;
+  }
+  body.solace_page_dashboard-step5 .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 42%;
+  }
+}
+html.wp-toolbar:has(.solace_page_dashboard-step6) {
+  padding-top: 0;
+}
+
+body.solace_page_dashboard-step6 #adminmenumain,
+body.solace_page_dashboard-step6 #wpadminbar {
+  display: none;
+}
+body.solace_page_dashboard-step6 .notice {
+  display: none;
+}
+body.solace_page_dashboard-step6 #wpcontent,
+body.solace_page_dashboard-step6 #wpfooter {
+  margin-left: 0;
+  padding-left: 0;
+}
+body.solace_page_dashboard-step6 #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-step6 #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-step6 #update-nag,
+body.solace_page_dashboard-step6 .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-step6 .wrap-step6 {
+  font-family: Poppins;
+  background: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  background-color: #000F44;
+  height: 100vh;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin {
+  gap: 0;
+  justify-content: unset;
+  display: flex;
+  max-width: 663px;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin .input {
+  margin-bottom: 40px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin .checkbox_agreement {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin input.firstname, body.solace_page_dashboard-step6 .wrap-step6 .box-optin input.email {
+  width: 290px;
+  height: 40px;
+  border-radius: 100px;
+  border-color: #D3D3D3;
+  padding-left: 20px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin label.note {
+  color: #FD9007;
+  cursor: unset;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin span.step6_title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 40px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin span.step6_desc {
+  font-size: 15px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin .step6_submit {
+  text-decoration: none;
+  width: 278px;
+  height: 42px;
+  border-radius: 100px;
+  background: #ff9000;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+}
+body.solace_page_dashboard-step6 .wrap-step6 .box-optin .skip-this-step {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: #0457dd;
+  background: transparent;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav {
+  background: #000F44;
+  margin-bottom: 28px;
+  margin-bottom: 184px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 43px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-logo a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-logo a .logo1 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-logo a .logo2 {
+  margin-left: 25px;
+  margin-right: 15px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-logo a .logo2 h1 {
+  color: #FFF;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-logo a .logo2 img {
+  height: 50px;
+  padding: 5px 0 0 0;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-logo a div.version {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 34px;
+  flex-shrink: 0;
+  background: #F4F4F4;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 50px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-menu ul li {
+  list-style-type: none;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-menu ul li a.pro {
+  border-radius: 100px;
+  background: #FF8E00;
+  padding: 3px 19px;
+}
+body.solace_page_dashboard-step6 .wrap-step6 > nav .mycontainer .box-menu ul li.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #ff8d00;
+  position: relative;
+  top: 24px;
+}
+body.solace_page_dashboard-step6 .loading-gif {
+  width: 50px;
+  height: 50px;
+}
+body.solace_page_dashboard-step6 .simple-plugin-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 40px;
+}
+body.solace_page_dashboard-step6 .simple-plugin-columns .f_group {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+  color: #000 !important;
+  border-radius: 10px;
+}
+body.solace_page_dashboard-step6 #previewframe {
+  width: 100%;
+  height: 500px;
+}
+body.solace_page_dashboard-step6 .col-left {
+  width: 20%;
+  min-width: 350px;
+  position: sticky;
+  top: 50px;
+}
+body.solace_page_dashboard-step6 .col-right {
+  width: 80%;
+  /* height: 100vh; */
+  position: relative;
+}
+body.solace_page_dashboard-step6 .selected-demo {
+  display: flex;
+  padding: 20px 0 0 20px;
+  flex-direction: column;
+}
+body.solace_page_dashboard-step6 .labeldemo {
+  font-size: 20px;
+  font-weight: 600;
+}
+body.solace_page_dashboard-step6 .palette-buttons {
+  /* background-color: #e3e3e3; */
+  background-color: #F7F7F7;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+body.solace_page_dashboard-step6 .palette-buttons hr {
+  margin: 0;
+  border-top: 1px solid #EAEAEA;
+}
+body.solace_page_dashboard-step6 .colorlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+body.solace_page_dashboard-step6 .fontlist {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+body.solace_page_dashboard-step6 .font {
+  width: 100%;
+}
+body.solace_page_dashboard-step6 .font img {
+  width: 63px;
+}
+body.solace_page_dashboard-step6 .color {
+  height: 38px;
+  border-radius: 30px;
+}
+body.solace_page_dashboard-step6 .colorlist .color:hover,
+body.solace_page_dashboard-step6 .colorlist .color:active,
+body.solace_page_dashboard-step6 .colorlist .color:visited {
+  border-radius: 30px;
+  outline: 4px solid #ff8c02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step6 .f_group:hover,
+body.solace_page_dashboard-step6 .f_group:active,
+body.solace_page_dashboard-step6 .f_group:visited {
+  outline: 4px solid #ff8c02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step6 a#default, body.solace_page_dashboard-step6 .color {
+  display: flex;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 38px;
+  padding: 5px;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step6 .f_group {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-step6 span.color_hex {
+  width: 27px;
+  display: block;
+  height: 27px;
+  border-radius: 100%;
+}
+body.solace_page_dashboard-step6 .frame {
+  position: absolute;
+  /* border: 10px solid red; */
+  /* z-index: 9; */
+  /* border-radius: 30px; */
+  /* width: 100%;
+  height: 100%;
+  left: -10px;
+  top: -10px; */
+}
+body.solace_page_dashboard-step6 .preview div.builder-item::before {
+  content: "";
+  display: none;
+}
+body.solace_page_dashboard-step6 .logo-buttons {
+  display: flex;
+  padding: 20px 0 0 20px;
+}
+body.solace_page_dashboard-step6 .logo-buttons .logo_default {
+  align-items: center;
+  /* display: flex; */
+}
+body.solace_page_dashboard-step6 .logo_default {
+  display: none;
+}
+body.solace_page_dashboard-step6 .palette-buttons .logo {
+  max-width: 300px;
+  display: none;
+  margin: auto;
+}
+body.solace_page_dashboard-step6 span.titlelogo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  color: #000;
+  font-family: "Manrope";
+}
+body.solace_page_dashboard-step6 .logo-buttons #upload-logo-form input {
+  color: #939393;
+  background: transparent;
+  text-decoration: underline;
+}
+body.solace_page_dashboard-step6 .preview {
+  float: inherit;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 30px;
+  overflow: auto;
+}
+body.solace_page_dashboard-step6 span.titlecolor {
+  font-weight: 800;
+  display: block;
+  color: #000;
+  padding: 20px 20px 0 20px;
+  font-family: "Manrope";
+}
+body.solace_page_dashboard-step6 .loading-overlay {
+  /* display:none; */
+  display: flex;
+  justify-content: center;
+}
+body.solace_page_dashboard-step6 a#solace-extra-continue {
+  background-color: #FF8F00;
+  padding: 5px 50px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+  flex-basis: 80%;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+body.solace_page_dashboard-step6 div#solace-extra-action-button {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer {
+    padding: 15px;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 250px;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a .mybox span {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .elementor,
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .gutenberg {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .elementor span,
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .gutenberg span {
+    margin: 20px 0;
+  }
+  body.solace_page_dashboard-step6 .wrap .box-optin {
+    width: 90%;
+    padding: 20px;
+    margin-top: 0;
+  }
+  body.solace_page_dashboard-step6 .wrap .box-optin input.firstname,
+  body.solace_page_dashboard-step6 .wrap .box-optin input.email {
+    width: 49%;
+  }
+  body.solace_page_dashboard-step6 .wrap .box-optin input[type=checkbox] {
+    width: 1em;
+    height: 1em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body.solace_page_dashboard-congratulations .wrap section.page-builder {
+    display: block;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 42%;
+  }
+  body.solace_page_dashboard-step6 .wrap .box-optin input.firstname,
+  body.solace_page_dashboard-step6 .wrap .box-optin input.email {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+html.wp-toolbar:has(.solace_page_dashboard-congratulations) {
+  padding-top: 0;
+}
+
+body.solace_page_dashboard-congratulations #adminmenumain,
+body.solace_page_dashboard-congratulations #wpadminbar {
+  display: none;
+}
+body.solace_page_dashboard-congratulations #wpcontent,
+body.solace_page_dashboard-congratulations #wpfooter {
+  margin-left: 0;
+  padding-left: 0;
+}
+body.solace_page_dashboard-congratulations #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-congratulations #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-congratulations #update-nag,
+body.solace_page_dashboard-congratulations .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations {
+  font-family: Poppins;
+  background: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  background-image: url("../../assets/images/congratulations/background.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat {
+  width: 663px;
+  background-color: #ffffff;
+  height: 349px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 184px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat a {
+  text-decoration: none;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat span {
+  display: block;
+  text-align: center;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat span.cong_title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 37px;
+  padding-top: 51px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat span.cong_desc {
+  font-size: 15px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat .cong_border img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat span.done {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #000;
+  text-align: center;
+  margin-bottom: 48px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat a.button {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: none;
+  background: none;
+  padding-bottom: 48px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat a.button .cong_button {
+  text-decoration: none;
+  width: 278px;
+  height: 42px;
+  border-radius: 100px;
+  background: #ff9000;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat a:focus {
+  box-shadow: none;
+  outline: none;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav {
+  background: #000F44;
+  margin-bottom: 28px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 43px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-logo a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-logo a .logo2 {
+  margin-left: 25px;
+  margin-right: 15px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-logo a .logo2 h1 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-logo a .logo2 img {
+  height: 50px;
+  padding: 5px 0 0 0;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-logo a div.version {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 34px;
+  flex-shrink: 0;
+  background: #F4F4F4;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 50px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-menu ul li {
+  list-style-type: none;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-menu ul li a.pro {
+  border-radius: 100px;
+  background: #FF8E00;
+  padding: 3px 19px;
+}
+body.solace_page_dashboard-congratulations .wrap-congratulations > nav .mycontainer .box-menu ul li.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #ff8d00;
+  position: relative;
+  top: 30px;
+}
+body.solace_page_dashboard-congratulations .loading-gif {
+  width: 50px;
+  height: 50px;
+}
+body.solace_page_dashboard-congratulations .simple-plugin-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 40px;
+}
+body.solace_page_dashboard-congratulations .simple-plugin-columns .f_group {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+  color: #000 !important;
+  border-radius: 10px;
+}
+body.solace_page_dashboard-congratulations #previewframe {
+  width: 100%;
+  height: 500px;
+}
+body.solace_page_dashboard-congratulations .col-left {
+  width: 20%;
+  min-width: 350px;
+  position: sticky;
+  top: 50px;
+}
+body.solace_page_dashboard-congratulations .col-right {
+  width: 80%;
+  /* height: 100vh; */
+  position: relative;
+}
+body.solace_page_dashboard-congratulations .selected-demo {
+  display: flex;
+  padding: 20px 0 0 20px;
+  flex-direction: column;
+}
+body.solace_page_dashboard-congratulations .labeldemo {
+  font-size: 20px;
+  font-weight: 600;
+}
+body.solace_page_dashboard-congratulations .palette-buttons {
+  /* background-color: #e3e3e3; */
+  background-color: #F7F7F7;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+body.solace_page_dashboard-congratulations .palette-buttons hr {
+  margin: 0;
+  border-top: 1px solid #EAEAEA;
+}
+body.solace_page_dashboard-congratulations .colorlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+body.solace_page_dashboard-congratulations .fontlist {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+body.solace_page_dashboard-congratulations .font {
+  width: 100%;
+}
+body.solace_page_dashboard-congratulations .font img {
+  width: 63px;
+}
+body.solace_page_dashboard-congratulations .color {
+  height: 38px;
+  border-radius: 30px;
+}
+body.solace_page_dashboard-congratulations .colorlist .color:hover,
+body.solace_page_dashboard-congratulations .colorlist .color:active,
+body.solace_page_dashboard-congratulations .colorlist .color:visited {
+  border-radius: 30px;
+  outline: 4px solid #ff8c02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-congratulations .f_group:hover,
+body.solace_page_dashboard-congratulations .f_group:active,
+body.solace_page_dashboard-congratulations .f_group:visited {
+  outline: 4px solid #ff8c02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-congratulations a#default,
+body.solace_page_dashboard-congratulations .color {
+  display: flex;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 38px;
+  padding: 5px;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-congratulations .f_group {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+body.solace_page_dashboard-congratulations span.color_hex {
+  width: 27px;
+  display: block;
+  height: 27px;
+  border-radius: 100%;
+}
+body.solace_page_dashboard-congratulations .frame {
+  position: absolute;
+  /* border: 10px solid red; */
+  /* z-index: 9; */
+  /* border-radius: 30px; */
+  /* width: 100%;
+  height: 100%;
+  left: -10px;
+  top: -10px; */
+}
+body.solace_page_dashboard-congratulations .preview div.builder-item::before {
+  content: "";
+  display: none;
+}
+body.solace_page_dashboard-congratulations .logo-buttons {
+  display: flex;
+  padding: 20px 0 0 20px;
+}
+body.solace_page_dashboard-congratulations .logo-buttons .logo_default {
+  align-items: center;
+  /* display: flex; */
+}
+body.solace_page_dashboard-congratulations .logo_default {
+  display: none;
+}
+body.solace_page_dashboard-congratulations .palette-buttons .logo {
+  max-width: 300px;
+  display: none;
+  margin: auto;
+}
+body.solace_page_dashboard-congratulations span.titlelogo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  color: #000;
+  font-family: "Manrope";
+}
+body.solace_page_dashboard-congratulations .logo-buttons #upload-logo-form input {
+  color: #939393;
+  background: transparent;
+  text-decoration: underline;
+}
+body.solace_page_dashboard-congratulations .preview {
+  float: inherit;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 30px;
+  overflow: auto;
+}
+body.solace_page_dashboard-congratulations span.titlecolor {
+  font-weight: 800;
+  display: block;
+  color: #000;
+  padding: 20px 20px 0 20px;
+  font-family: "Manrope";
+}
+body.solace_page_dashboard-congratulations .loading-overlay {
+  /* display:none; */
+  display: flex;
+  justify-content: center;
+}
+body.solace_page_dashboard-congratulations a#solace-extra-continue {
+  background-color: #FF8F00;
+  padding: 5px 50px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+  flex-basis: 80%;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+body.solace_page_dashboard-congratulations div#solace-extra-action-button {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer {
+    padding: 15px;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 250px;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a .mybox span {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat {
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 120px;
+  }
+  body.solace_page_dashboard-congratulations .wrap-congratulations .box-congrat .cong_border img {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .elementor,
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .gutenberg {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .elementor span,
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes .gutenberg span {
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body.solace_page_dashboard-congratulations .wrap section.page-builder {
+    display: block;
+  }
+  body.solace_page_dashboard-congratulations .wrap section.page-builder .mycontainer .boxes a .mybox {
+    width: 42%;
+  }
+}
+body.solace_page_dashboard .wrap .box .row2 .col3 a.disabled {
+  opacity: 0.5;
+}
+
+body.toplevel_page_solace #wpcontent,
+body.toplevel_page_solace #wpfooter,
+body.solace_page_dashboard #wpcontent,
+body.solace_page_dashboard #wpfooter {
+  padding-left: 0;
+}
+body.toplevel_page_solace #wpbody-content,
+body.solace_page_dashboard #wpbody-content {
+  padding-bottom: 0;
+}
+body.toplevel_page_solace #wpfooter,
+body.solace_page_dashboard #wpfooter {
+  display: none;
+}
+body.toplevel_page_solace #update-nag,
+body.toplevel_page_solace .update-nag,
+body.solace_page_dashboard #update-nag,
+body.solace_page_dashboard .update-nag {
+  display: none;
+}
+body.toplevel_page_solace .wrap nav,
+body.toplevel_page_solace .wrap section.top,
+body.toplevel_page_solace .wrap section.box,
+body.toplevel_page_solace .wrap footer.bottom,
+body.solace_page_dashboard .wrap nav,
+body.solace_page_dashboard .wrap section.top,
+body.solace_page_dashboard .wrap section.box,
+body.solace_page_dashboard .wrap footer.bottom {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body.toplevel_page_solace .wrap nav .mycontainer,
+body.solace_page_dashboard .wrap nav .mycontainer {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  height: 79px;
+}
+body.toplevel_page_solace .wrap nav .mycontainer .box-menu ul li.active-custom::after,
+body.solace_page_dashboard .wrap nav .mycontainer .box-menu ul li.active-custom::after {
+  content: none;
+}
+body.toplevel_page_solace .wrap footer.bottom .mycontainer,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer {
+  max-width: 90%;
+}
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .box.center,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .box.center {
+  display: none;
+}
+body.toplevel_page_solace .wrap footer.bottom .mycontainer .left a,
+body.solace_page_dashboard .wrap footer.bottom .mycontainer .left a {
+  visibility: hidden;
+}
+body.toplevel_page_solace .wrap section.top .mycontainer,
+body.solace_page_dashboard .wrap section.top .mycontainer {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 38px 43px;
+  margin-bottom: 40px;
+}
+body.toplevel_page_solace .wrap section.top .mycontainer h1,
+body.solace_page_dashboard .wrap section.top .mycontainer h1 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+body.toplevel_page_solace .wrap section.top .mycontainer p,
+body.solace_page_dashboard .wrap section.top .mycontainer p {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+body.toplevel_page_solace .wrap section.top .mycontainer a,
+body.solace_page_dashboard .wrap section.top .mycontainer a {
+  border: 1px solid #ff8f00;
+  color: #ff8f00;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 31px;
+  background: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+body.toplevel_page_solace .wrap .box,
+body.solace_page_dashboard .wrap .box {
+  max-width: 90%;
+  margin: 0 auto;
+}
+body.toplevel_page_solace .wrap .box .row1,
+body.solace_page_dashboard .wrap .box .row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 12px;
+  gap: 1%;
+  margin-bottom: 2%;
+}
+body.toplevel_page_solace .wrap .box .row1 .left,
+body.toplevel_page_solace .wrap .box .row1 .right,
+body.solace_page_dashboard .wrap .box .row1 .left,
+body.solace_page_dashboard .wrap .box .row1 .right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 49%;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, #001958 0%, #001344 100%);
+  border-radius: 12px;
+  min-height: 250px;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box1,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box1,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box1,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box1 {
+  padding: 25px;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box1 span.title,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box1 span.title,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box1 span.title,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box1 span.title {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: block;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box1 span.desc,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box1 span.desc,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box1 span.desc,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box1 span.desc {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 26px;
+  display: block;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box1 a,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box1 a,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box1 a,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box1 a {
+  padding: 10px 30px;
+  background: #ff8f00;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box2,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box2,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box2,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box2 {
+  padding: 25px;
+}
+body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box2 img,
+body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box2 img,
+body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box2 img,
+body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box2 img {
+  width: 250px;
+}
+body.toplevel_page_solace .wrap .box .row2,
+body.solace_page_dashboard .wrap .box .row2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  gap: 2%;
+}
+body.toplevel_page_solace .wrap .box .row2 .col1,
+body.toplevel_page_solace .wrap .box .row2 .col2,
+body.toplevel_page_solace .wrap .box .row2 .col3,
+body.toplevel_page_solace .wrap .box .row2 .col4,
+body.solace_page_dashboard .wrap .box .row2 .col1,
+body.solace_page_dashboard .wrap .box .row2 .col2,
+body.solace_page_dashboard .wrap .box .row2 .col3,
+body.solace_page_dashboard .wrap .box .row2 .col4 {
+  border-radius: 12px;
+  background: #fff;
+  width: 25%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body.toplevel_page_solace .wrap .box .row2 .col1 span,
+body.toplevel_page_solace .wrap .box .row2 .col2 span,
+body.toplevel_page_solace .wrap .box .row2 .col3 span,
+body.toplevel_page_solace .wrap .box .row2 .col4 span,
+body.solace_page_dashboard .wrap .box .row2 .col1 span,
+body.solace_page_dashboard .wrap .box .row2 .col2 span,
+body.solace_page_dashboard .wrap .box .row2 .col3 span,
+body.solace_page_dashboard .wrap .box .row2 .col4 span {
+  display: block;
+}
+body.toplevel_page_solace .wrap .box .row2 .col1 svg,
+body.toplevel_page_solace .wrap .box .row2 .col2 svg,
+body.toplevel_page_solace .wrap .box .row2 .col3 svg,
+body.toplevel_page_solace .wrap .box .row2 .col4 svg,
+body.solace_page_dashboard .wrap .box .row2 .col1 svg,
+body.solace_page_dashboard .wrap .box .row2 .col2 svg,
+body.solace_page_dashboard .wrap .box .row2 .col3 svg,
+body.solace_page_dashboard .wrap .box .row2 .col4 svg {
+  margin-bottom: 21px;
+}
+body.toplevel_page_solace .wrap .box .row2 .col1 span.title,
+body.toplevel_page_solace .wrap .box .row2 .col2 span.title,
+body.toplevel_page_solace .wrap .box .row2 .col3 span.title,
+body.toplevel_page_solace .wrap .box .row2 .col4 span.title,
+body.solace_page_dashboard .wrap .box .row2 .col1 span.title,
+body.solace_page_dashboard .wrap .box .row2 .col2 span.title,
+body.solace_page_dashboard .wrap .box .row2 .col3 span.title,
+body.solace_page_dashboard .wrap .box .row2 .col4 span.title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.toplevel_page_solace .wrap .box .row2 .col1 span.desc,
+body.toplevel_page_solace .wrap .box .row2 .col2 span.desc,
+body.toplevel_page_solace .wrap .box .row2 .col3 span.desc,
+body.toplevel_page_solace .wrap .box .row2 .col4 span.desc,
+body.solace_page_dashboard .wrap .box .row2 .col1 span.desc,
+body.solace_page_dashboard .wrap .box .row2 .col2 span.desc,
+body.solace_page_dashboard .wrap .box .row2 .col3 span.desc,
+body.solace_page_dashboard .wrap .box .row2 .col4 span.desc {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: center;
+}
+body.toplevel_page_solace .wrap .box .row2 .col1 a,
+body.toplevel_page_solace .wrap .box .row2 .col2 a,
+body.toplevel_page_solace .wrap .box .row2 .col3 a,
+body.toplevel_page_solace .wrap .box .row2 .col4 a,
+body.solace_page_dashboard .wrap .box .row2 .col1 a,
+body.solace_page_dashboard .wrap .box .row2 .col2 a,
+body.solace_page_dashboard .wrap .box .row2 .col3 a,
+body.solace_page_dashboard .wrap .box .row2 .col4 a {
+  text-decoration: none;
+  border-radius: 100px;
+  border: 1px solid #FF9000;
+  padding: 5px 25px;
+  color: #FF9000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 {
+    margin-bottom: 0.65%;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 .left .box-colfull,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 .right .box-colfull {
+    margin-bottom: 1%;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col3,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col4 {
+    margin-top: 0.65%;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box1 a,
+  body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box1 a,
+  body.solace_page_dashboard .wrap .box .row1 .left .box-colfull .box1 a,
+  body.solace_page_dashboard .wrap .box .row1 .right .box-colfull .box1 a {
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap section.top {
+    margin-bottom: 12px;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 {
+    margin-bottom: 0;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 .left .box-colfull,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 .right .box-colfull {
+    margin-bottom: 12px;
+  }
+  body.toplevel_page_solace .wrap .box .row1 .left,
+  body.toplevel_page_solace .wrap .box .row1 .right,
+  body.solace_page_dashboard .wrap .box .row1 .left,
+  body.solace_page_dashboard .wrap .box .row1 .right {
+    width: 100%;
+  }
+  body.toplevel_page_solace .wrap .box .row1 .left {
+    margin-bottom: 12px;
+  }
+  body.toplevel_page_solace .wrap .box .row2,
+  body.solace_page_dashboard .wrap .box .row2 {
+    flex-wrap: wrap;
+  }
+  body.toplevel_page_solace .wrap .box .row2 .col1,
+  body.toplevel_page_solace .wrap .box .row2 .col2,
+  body.toplevel_page_solace .wrap .box .row2 .col3,
+  body.toplevel_page_solace .wrap .box .row2 .col4,
+  body.solace_page_dashboard .wrap .box .row2 .col1,
+  body.solace_page_dashboard .wrap .box .row2 .col2,
+  body.solace_page_dashboard .wrap .box .row2 .col3,
+  body.solace_page_dashboard .wrap .box .row2 .col4 {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col1,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col2,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col3,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col4 {
+    width: 100%;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col1,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col2,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col3,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row2 .col4 {
+    margin-top: 12px;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  body.toplevel_page_solace .wrap,
+  body.solace_page_dashboard .wrap {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap {
+    margin: 0;
+    padding: 5px;
+    padding-bottom: 100px;
+  }
+  body.toplevel_page_solace footer.bottom,
+  body.solace_page_dashboard .wrap footer.bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body.toplevel_page_solace .wrap section.top .mycontainer {
+    padding: 20px;
+  }
+  body.toplevel_page_solace .wrap section.top .mycontainer a {
+    display: block;
+  }
+  body.solace_page_dashboard .wrap section.top {
+    padding: 0;
+  }
+  body.solace_page_dashboard .wrap section.top .mycontainer {
+    margin-bottom: 24px;
+  }
+  body.solace_page_dashboard .wrap section.top a {
+    display: block;
+    text-align: center;
+  }
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 .left .box-colfull,
+  body.toplevel_page_solace,
+  body.solace_page_dashboard .wrap .box .row1 .right .box-colfull {
+    flex-direction: column;
+  }
+  body.toplevel_page_solace .wrap .box .row1 .left .box-colfull,
+  body.toplevel_page_solace .wrap .box .row1 .right .box-colfull {
+    flex-direction: column;
+  }
+  body.solace_page_dashboard .wrap footer.bottom .mycontainer {
+    flex-direction: row;
+  }
+  body.toplevel_page_solace .wrap .box .row1 {
+    margin-bottom: 15px;
+  }
+  body.toplevel_page_solace .wrap .box .row1 .left .box-colfull .box2 img,
+  body.toplevel_page_solace .wrap .box .row1 .right .box-colfull .box2 img {
+    width: 200px;
+  }
+}
+html.wp-toolbar:has(.solace_page_dashboard-starter-templates) {
+  padding-top: 0;
+}
+
+body.solace_page_dashboard-starter-templates #adminmenumain,
+body.solace_page_dashboard-starter-templates #wpadminbar {
+  display: none;
+}
+body.solace_page_dashboard-starter-templates #wpcontent,
+body.solace_page_dashboard-starter-templates #wpfooter {
+  margin-left: 0;
+  padding-left: 0;
+}
+body.solace_page_dashboard-starter-templates #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-starter-templates #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-starter-templates #update-nag,
+body.solace_page_dashboard-starter-templates .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-starter-templates .wrap > nav .mycontainer {
+  padding: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap nav .mycontainer .box-menu ul li.active::after {
+  content: none;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer {
+  background: #000f44;
+  border-radius: 12px;
+  padding: 34px 37px;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 2;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col1 {
+  display: none;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col2 h2 {
+  margin: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col2 h2 span {
+  color: #FF8E00;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 select {
+  min-width: 130px;
+  border-radius: 100px;
+  background: #000f44;
+  border: 1px solid #D3D3D3;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-size: 16px 16px;
+  background-position: right 17px top 55%;
+  padding: 10px 17px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 .dropdown1 {
+  position: relative;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 .dropdown1 select {
+  margin-right: 6px;
+  height: 43px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 .dropdown1::before {
+  content: url(../images/starter-templates/arrow-down-alt.png);
+  position: absolute;
+  right: 25px;
+  bottom: 13px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 .dropdown3 {
+  position: relative;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 .dropdown3 select {
+  height: 43px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 .dropdown3::before {
+  content: url(../images/starter-templates/arrow-down-alt.png);
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top img.decor1 {
+  position: absolute;
+  right: -50px;
+  bottom: 12px;
+  z-index: 1;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding-bottom: 90px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside {
+  width: 353px;
+  height: 100%;
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer {
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 25px;
+  position: relative;
+  z-index: 2;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer span.title {
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer span.desc {
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer .box-search {
+  margin-top: 23px;
+  position: relative;
+  border-bottom: 1px solid #EAEAEA;
+  padding-bottom: 33px;
+  margin-bottom: 33px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer .box-search input {
+  width: 290px;
+  width: 100%;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #D3D3D3;
+  color: #B2B2B2;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 23px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer .box-search .box-btn button {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 2px;
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  cursor: pointer;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer span.cat {
+  display: block;
+  margin-bottom: 24px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer form .box-checkbox input {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #707070;
+  background: #FFF;
+  margin-right: 14px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside .mycontainer form .box-checkbox label {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside img.decor2 {
+  position: absolute;
+  right: -12px;
+  bottom: -6px;
+  z-index: 2;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside img.decor3 {
+  position: absolute;
+  left: -30px;
+  bottom: -20px;
+  z-index: 2;
+  z-index: 1;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside img.decor4 {
+  position: absolute;
+  left: -140px;
+  bottom: -30px;
+  z-index: 1;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main {
+  width: calc(100% - 353px - 35px);
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 25px;
+  background: #f1f1f1;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo {
+  cursor: pointer;
+  width: calc(32.6% - 17px);
+  width: calc(33.33% - 17px);
+  margin-bottom: 10px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 35px -8px rgba(0, 0, 0, 0.24);
+  transform: translateY(0);
+  transition: all 0.3s ease-out;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-image img:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-content .top-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0 0;
+  margin: 8px 0;
+  position: relative;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-content .top-content span.title {
+  display: block;
+  text-align: left;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-right: 60px;
+  padding-right: 120px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-content .top-content span.label-recommended {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  background: #000f44;
+  padding: 0 8px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-content .top-content span.label {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  background: #000f44;
+  padding: 0 8px;
+  border-radius: 20px;
+  width: 45px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo .box-content .bottom-content p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0em;
+  margin: 0;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more {
+  margin: 60px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button {
+  position: relative;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  background: #ff8f00;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  transition: width 1s ease, padding-right 1s ease;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button .box-bubble dotlottie-player {
+  display: none;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: -69px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button.active {
+  display: block;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button.active .circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 3px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button.active .box-bubble {
+  margin-left: 10px;
+  position: relative;
+  bottom: 8px;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button.active .box-bubble .circle:nth-last-child(1) {
+  animation: animationLoadMore 0.6s 0.1s linear infinite;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button.active .box-bubble .circle:nth-last-child(2) {
+  animation: animationLoadMore 0.6s 0.2s linear infinite;
+}
+body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .box-load-more button.active .box-bubble .circle:nth-last-child(3) {
+  animation: animationLoadMore 0.6s 0.3s linear infinite;
+}
+@keyframes animationLoadMore {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+body.solace_page_dashboard-starter-templates .wrap footer.bottom {
+  padding-left: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes {
+    flex-direction: column;
+    gap: 15px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body.solace_page_dashboard-starter-templates .wrap {
+    padding-bottom: 100px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates {
+    overflow: hidden;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes {
+    flex-direction: column;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer .boxes .col3 {
+    margin-top: 12px;
+    gap: 15px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top img.decor1 {
+    bottom: 121px;
+    bottom: 48px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo {
+    width: calc(50% - 17px);
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top {
+    padding: 12px 0;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main {
+    padding: 12px 0;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo img {
+    height: 363px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main aside {
+    width: 100%;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main {
+    width: 100%;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main img.decor1 {
+    bottom: 121px;
+    bottom: 88px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer {
+    height: 165px;
+    height: 90px;
+    height: auto;
+    text-align: center;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top img.decor1 {
+    bottom: 168px;
+    bottom: 93px;
+    bottom: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo img {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 580px) {
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top .mycontainer {
+    height: auto;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-top img.decor1 {
+    bottom: 208px;
+    bottom: 161px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body.solace_page_dashboard-starter-templates .wrap {
+    padding-bottom: 150px;
+  }
+  body.solace_page_dashboard-starter-templates .wrap section.start-templates .content-main main .mycontainer .demo {
+    width: 100%;
+  }
+}
+html.wp-toolbar:has(.solace_page_dashboard-progress) {
+  padding-top: 0;
+}
+
+body.solace_page_dashboard-progress #wpwrap {
+  background: #000f44;
+}
+body.solace_page_dashboard-progress #adminmenumain,
+body.solace_page_dashboard-progress #wpadminbar {
+  display: none;
+}
+body.solace_page_dashboard-progress #wpcontent,
+body.solace_page_dashboard-progress #wpfooter {
+  margin-left: 0;
+  padding-left: 0;
+  background: #000f44;
+}
+body.solace_page_dashboard-progress #wpbody-content {
+  padding-bottom: 0;
+}
+body.solace_page_dashboard-progress #wpfooter {
+  display: none;
+}
+body.solace_page_dashboard-progress #update-nag,
+body.solace_page_dashboard-progress .update-nag {
+  display: none;
+}
+body.solace_page_dashboard-progress .wrap {
+  background: #000F44;
+}
+body.solace_page_dashboard-progress .wrap nav {
+  margin-bottom: 0;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 43px;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer {
+  padding-top: 64px;
+  padding-bottom: 271px;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+  padding: 39px 36px;
+  background: #fff;
+  border-radius: 20px;
+  width: 663px;
+  height: 565px;
+  height: 585px;
+  margin: 0 auto;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-loading {
+  display: flex;
+  justify-content: center;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-step-import {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-step-import span.step-import {
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-step-import span.percent {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 19px;
+  position: relative;
+  background: red;
+  background: #fff;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar {
+  background: #EAEAEA;
+  width: calc(25% - 7px);
+  height: 8px;
+  position: relative;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 7px;
+  height: 8px;
+  background: #fff;
+  z-index: 2;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar .progress {
+  width: 0;
+  height: 8px;
+  background: #FF9100;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar2 {
+  width: calc(50% - 7px);
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar2::after {
+  left: 50%;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar4::after {
+  content: none;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar.progress {
+  width: 0;
+  position: absolute;
+  background: #FF9100;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .boxes-bar .bar.progress::after {
+  content: none;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes span.info-import {
+  position: absolute;
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes img {
+  display: block;
+  margin: 0 auto;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-did-you-know .box-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-did-you-know .box-title span.title {
+  display: block;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  margin-bottom: 5px;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-did-you-know .box-desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-did-you-know .box-desc span.desc {
+  display: block;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer {
+    padding-top: 50px;
+  }
+  body.solace_page_dashboard-progress .wrap section.progress-import {
+    padding: 0;
+  }
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+    height: auto;
+  }
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes h1 {
+    margin-bottom: 16px;
+  }
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-step-import {
+    flex-direction: column;
+    gap: 12px;
+  }
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes .box-did-you-know .box-desc span.desc {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+    width: 80%;
+  }
+}
+body.appearance_page_tgmpa-install-plugins .wrap iframe {
+  display: none;
+}/*# sourceMappingURL=admin-style.css.map */

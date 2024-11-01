@@ -1,0 +1,276 @@
+html.wp-toolbar:has(.solace_page_dashboard-progress) {
+    padding-top: 0;
+}
+
+body.solace_page_dashboard-progress {
+
+    #wpwrap {
+        background: #000f44;
+    }
+
+    #adminmenumain,
+    #wpadminbar {
+        display: none;
+    }
+
+    #wpcontent,
+    #wpfooter {
+        margin-left: 0;
+        padding-left: 0;
+        background: #000f44;
+    }
+
+    #wpbody-content {
+        padding-bottom: 0;
+    }
+
+    #wpfooter {
+        display: none;
+    }
+
+    #update-nag,
+    .update-nag {
+        display: none;
+    }
+
+    .wrap {
+        background: #000F44;
+
+        nav {
+            margin-bottom: 0;
+        }
+
+        section.progress-import {
+            max-width: $max_width;
+            margin: 0 auto;
+            padding: 0 43px;
+
+            .mycontainer {
+                padding-top: 64px;
+                padding-bottom: 271px;
+
+                .boxes {
+                    padding: 39px 36px;
+                    background: #fff;
+                    border-radius: 20px;
+                    width: 663px;
+                    height: 565px;
+                    height: 585px;
+                    margin: 0 auto;
+
+                    .boxes-loading {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    h1 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-align: center;
+                        margin-top: 0;
+                        margin-bottom: 56px;
+                    }
+
+                    .box-step-import {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        margin-bottom: 14px;
+
+                        span.step-import {
+                            display: block;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+
+                        span.percent {
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+
+                    .boxes-bar {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 7px;
+                        margin-bottom: 19px;
+                        position: relative;
+                        background: red;
+                        background: #fff;
+
+                        .bar {
+                            background: #EAEAEA;
+                            width: calc(25% - 7px);
+                            height: 8px;
+                            position: relative;
+                            // border-radius: 8px;
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                right: -7px;
+                                top: 0;
+                                width: 7px;
+                                height: 8px;
+                                background: #fff;
+                                z-index: 2;
+                            }
+
+                            .progress {
+                                width: 0;
+                                height: 8px;
+                                background: #FF9100;
+                            }
+                        }
+
+                        .bar2 {
+                            width: calc(50% - 7px);
+
+                            &::after {
+                                left: 50%;
+                            }
+                        }                        
+
+                        .bar4 {
+                            &::after {
+                                content: none;
+                            }
+                        }
+
+                        .bar.progress {
+                            width: 0;
+                            position: absolute;
+                            background: #FF9100;
+
+                            &::after {
+                                content: none;
+                            }
+                        }
+                    }
+
+                    span.info-import {
+                        position: absolute;
+                        display: block;
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 28px;
+                    }
+
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        // width: 400px;
+                    }
+
+                    .box-did-you-know {
+
+                        .box-title {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 7px;
+                            justify-content: center;
+
+                            span.title {
+                                display: block;
+                                font-family: Poppins;
+                                font-size: 15px;
+                                font-weight: 700;
+                                line-height: 23px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #000;
+                                margin-bottom: 5px;
+                            }
+                        }
+
+                        .box-desc {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+
+                            span.desc {
+                                display: block;
+                                font-family: Poppins;
+                                font-size: 13px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #000;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer {
+        padding-top: 50px;
+    }
+
+    body.solace_page_dashboard-progress .wrap section.progress-import {
+        padding: 0;
+    }
+
+    body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+        height: auto;
+
+        h1 {
+            margin-bottom: 16px;
+        }
+
+        .box-step-import {
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .box-did-you-know {
+            .box-desc {
+                span.desc {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body.solace_page_dashboard-progress .wrap section.progress-import .mycontainer .boxes {
+        // padding: 20px;
+        width: 80%;
+    }
+}

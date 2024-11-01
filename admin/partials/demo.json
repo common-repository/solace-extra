@@ -1,0 +1,99 @@
+{
+    "2": {
+        "title": "Analyzio",
+        "link": "https://solacewp.com/api/demo/analyzio/",
+        "demo_layout": [
+            "Four Columns",
+            "Three Columns"
+        ],
+        "demo_category": [
+            "Business",
+            "News"
+        ],
+        "demo_link": "https://solacewp.com/analyzio/",
+        "demo_type": "gutenberg",
+        "demo_image": "https://solacewp.com/api/wp-content/uploads/sites/59/2023/10/demo6.png",
+        "demo_search": "Analyzio Four Columns Three Columns Business News"
+    },
+    "3": {
+        "title": "Petopia",
+        "link": "https://solacewp.com/api/demo/petopia/",
+        "demo_layout": [
+            "Four Columns",
+            "Three Columns"
+        ],
+        "demo_category": [
+            "Business",
+            "Education"
+        ],
+        "demo_link": "https://solacewp.com/petopia/",
+        "demo_type": "elementor",
+        "demo_image": "https://solacewp.com/api/wp-content/uploads/sites/59/2023/10/demo5.png",
+        "demo_search": "Petopia Four Columns Three Columns Business Education"
+    },
+    "4": {
+        "title": "Gratifire",
+        "link": "https://solacewp.com/api/demo/gratifire/",
+        "demo_layout": [
+            "Two Columns",
+            "Wide Blocks"
+        ],
+        "demo_category": [
+            "E-Commerce",
+            "Tehnology"
+        ],
+        "demo_link": "https://solacewp.com/gratifire/",
+        "demo_type": "elementor",
+        "demo_image": "https://solacewp.com/api/wp-content/uploads/sites/59/2023/10/demo4.png",
+        "demo_search": "Gratifire Two Columns Wide Blocks E-Commerce Tehnology"
+    },
+    "5": {
+        "title": "Webgenix",
+        "link": "https://solacewp.com/api/demo/webgenix/",
+        "demo_layout": [
+            "One Column",
+            "Two Columns"
+        ],
+        "demo_category": [
+            "E-Commerce",
+            "Food &amp; Drink"
+        ],
+        "demo_link": "https://solacewp.com/webgenix/",
+        "demo_type": "elementor",
+        "demo_image": "https://solacewp.com/api/wp-content/uploads/sites/59/2023/10/demo3.png",
+        "demo_search": "Webgenix One Column Two Columns E-Commerce Food &amp; Drink"
+    },
+    "6": {
+        "title": "Zenithly",
+        "link": "https://solacewp.com/api/demo/zenithly/",
+        "demo_layout": [
+            "Four Columns",
+            "Grid Layout"
+        ],
+        "demo_category": [
+            "Business",
+            "E-Commerce"
+        ],
+        "demo_link": "https://solacewp.com/zenithly/",
+        "demo_type": "elementor",
+        "demo_image": "https://solacewp.com/api/wp-content/uploads/sites/59/2023/10/demo2.png",
+        "demo_search": "Zenithly Four Columns Grid Layout Business E-Commerce"
+    },
+    "7": {
+        "title": "Guruhero",
+        "link": "https://solacewp.com/api/demo/guruhero/",
+        "demo_layout": [
+            "One Column",
+            "Two Columns"
+        ],
+        "demo_category": [
+            "Blog",
+            "Education",
+            "Events"
+        ],
+        "demo_link": "https://solacewp.com/guruhero/",
+        "demo_type": "elementor",
+        "demo_image": "https://solacewp.com/api/wp-content/uploads/sites/59/2023/10/demo1.png",
+        "demo_search": "Guruhero One Column Two Columns Blog Education Events"
+    }
+}

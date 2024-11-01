@@ -1,0 +1,862 @@
+# Copyright (C) 2024 Solace
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Solace Extra 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/solace-extra\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-14T10:48:56+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: solace-extra\n"
+
+#. Plugin Name of the plugin
+#: solace-extra.php
+msgid "Solace Extra"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: solace-extra.php
+msgid "https://wordpress.org/plugins/solace-extra"
+msgstr ""
+
+#. Description of the plugin
+#: solace-extra.php
+msgid "Additional features for Solace Theme"
+msgstr ""
+
+#. Author of the plugin
+#: solace-extra.php
+#: admin/class-solace-extra-admin.php:157
+#: admin/class-solace-extra-admin.php:158
+msgid "Solace"
+msgstr ""
+
+#. Author URI of the plugin
+#: solace-extra.php
+msgid "https://solacewp.com/"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:174
+#: admin/class-solace-extra-admin.php:175
+#: admin/partials/header.php:20
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:192
+#: admin/class-solace-extra-admin.php:193
+msgid "Dashboard Video"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:210
+#: admin/class-solace-extra-admin.php:211
+msgid "Dashboard Type"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:228
+#: admin/class-solace-extra-admin.php:229
+msgid "Solace Step 5"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:246
+#: admin/class-solace-extra-admin.php:247
+msgid "Solace Step 6"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:264
+#: admin/class-solace-extra-admin.php:265
+msgid "Congratulations"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:282
+#: admin/class-solace-extra-admin.php:283
+msgid "Dashboard Starter Templates"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:300
+#: admin/class-solace-extra-admin.php:301
+msgid "Dashboard Progress"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:539
+msgid "Base Font"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:544
+msgid "Heading"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:550
+msgid "Link"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:555
+msgid "Link Hover"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:560
+#: elementor/widgets/widget/form-builder.php:587
+#: elementor/widgets/widget/form-builder.php:800
+msgid "Button"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:565
+msgid "Button Hover"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:570
+msgid "Text Selection"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:575
+msgid "Text Selection Background"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:580
+#: elementor/widgets/widget-base/widget-base.php:84
+msgid "Border"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:585
+#: elementor/widgets/widget-base/widget-base.php:95
+msgid "Background"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:590
+msgid "Page Title"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:595
+msgid "Page Title Background"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:600
+msgid "Submenu Background"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:903
+#: admin/import.php:178
+#: admin/import.php:431
+msgid "Error demo URL"
+msgstr ""
+
+#: admin/class-solace-extra-admin.php:924
+#: admin/import.php:209
+msgid "An error occurred while importing the customizer! The imported data is not valid."
+msgstr ""
+
+#: admin/import.php:270
+msgid "Error: Invalid or missing attachment ID from cookie."
+msgstr ""
+
+#: admin/import.php:274
+msgid "Success! Import Customizer..."
+msgstr ""
+
+#: admin/import.php:323
+#: admin/import.php:377
+msgid "Gagal menyimpan file di localhost."
+msgstr ""
+
+#: admin/import.php:326
+#: admin/import.php:380
+msgid "Gagal menginisialisasi WP_Filesystem."
+msgstr ""
+
+#: admin/import.php:329
+#: admin/import.php:383
+msgid "Gagal mendownload file dari server live."
+msgstr ""
+
+#: admin/import.php:485
+msgid "Success! Import Widgets..."
+msgstr ""
+
+#: admin/import.php:513
+msgid "Import data is invalid."
+msgstr ""
+
+#: admin/import.php:555
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: admin/import.php:577
+msgid "Site does not support widget"
+msgstr ""
+
+#: admin/import.php:612
+msgid "Widget already exists"
+msgstr ""
+
+#: admin/import.php:686
+msgid "Imported"
+msgstr ""
+
+#: admin/import.php:689
+msgid "Imported to Inactive"
+msgstr ""
+
+#: admin/import.php:695
+msgid "No Title"
+msgstr ""
+
+#: admin/import.php:897
+msgid "Erorr remove menu"
+msgstr ""
+
+#: admin/import.php:952
+msgid "Gagal mendapatkan informasi tema dari WordPress.org."
+msgstr ""
+
+#: admin/import.php:967
+msgid "Gagal membuka file ZIP."
+msgstr ""
+
+#: admin/import.php:975
+msgid "Theme Installed and Activated"
+msgstr ""
+
+#: admin/import.php:977
+msgid "Gagal mengaktifkan tema."
+msgstr ""
+
+#: admin/import.php:980
+msgid "Tema sudah terinstal dan aktif."
+msgstr ""
+
+#: admin/import.php:1027
+msgid "Plugin Installed and Activated"
+msgstr ""
+
+#: admin/import.php:1172
+msgid "Erorr demo name"
+msgstr ""
+
+#: admin/import.php:1228
+msgid "Failed opening file ZIP."
+msgstr ""
+
+#: admin/import.php:1231
+msgid "Plugin Elementor Not Activated."
+msgstr ""
+
+#: admin/import.php:1234
+msgid "Failed downloading file ZIP."
+msgstr ""
+
+#: admin/import.php:1298
+msgid "Erorr menu demo url"
+msgstr ""
+
+#: admin/partials/header.php:25
+msgid "Customization"
+msgstr ""
+
+#: admin/partials/header.php:30
+#: admin/partials/submenu-dashboard.php:22
+msgid "Starter Templates"
+msgstr ""
+
+#: admin/partials/header.php:35
+#: admin/partials/submenu-dashboard.php:82
+msgid "GO PRO"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:8
+msgid "Welcome to Solace"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:9
+msgid "Solace is fast, fully customisable & beautiful WordPress theme suitable for blog, personal portfolio, business website and wooCommerce storefront. It is very lightweight and offers unparalleled speed."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:11
+msgid "START CUSTOMISING"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:23
+msgid "Install a demo site in a few clicks."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:24
+#: admin/partials/submenu-video.php:21
+msgid "START NOW"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:35
+msgid "Customize Solace"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:36
+msgid "Cusotomize any part of your website."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:38
+msgid "CUSTOMIZE"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:57
+msgid "Need some help?"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:58
+msgid "We would love to be of any assistance."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:59
+msgid "Open Ticket"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:70
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:71
+msgid "Learn about any aspect of Zenith Theme."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:72
+msgid "Start reading"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:83
+msgid "Full access to premium features."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:84
+msgid "Upgrade"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:101
+msgid "Suggestions"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:102
+msgid "Let us know how we can improve."
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:103
+msgid "Contact Us"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:115
+#: admin/partials/submenu-starter.php:258
+#: admin/partials/submenu-type.php:52
+#: admin/partials/submenu-video.php:35
+msgid "Back"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:121
+#: admin/partials/submenu-starter.php:264
+#: admin/partials/submenu-type.php:58
+#: admin/partials/submenu-video.php:41
+msgid "Back to WordPress Dashboard"
+msgstr ""
+
+#: admin/partials/submenu-dashboard.php:127
+#: admin/partials/submenu-starter.php:270
+#: admin/partials/submenu-type.php:64
+#: admin/partials/submenu-video.php:47
+msgid "Next"
+msgstr ""
+
+#: admin/partials/submenu-dashboardcongratulations.php:15
+msgid "Congratulations!"
+msgstr ""
+
+#: admin/partials/submenu-dashboardcongratulations.php:16
+msgid "Your import is complete. You can check your website now."
+msgstr ""
+
+#: admin/partials/submenu-dashboardcongratulations.php:20
+msgid "done"
+msgstr ""
+
+#: admin/partials/submenu-dashboardcongratulations.php:22
+msgid "CHECK WEBSITE"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:186
+msgid "Failed to decode JSON response."
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:189
+msgid "Failed to fetch response from the API."
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:201
+msgid "Selected template"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:206
+msgid "Logo"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:215
+msgid "Change Color Palette"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:245
+msgid "Change Font Style"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:268
+msgid "Delete Previously imported sites"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:285
+msgid "Install and activate Elementor plugin "
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:288
+#: admin/partials/submenu-dashboardstep5.php:309
+msgid "(required) "
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:306
+msgid "Install and activate Woocommerce plugin "
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep5.php:332
+msgid "Continue"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep6.php:18
+msgid "Okay, just one last step "
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep6.php:19
+msgid "Tell us a litle bit about yourself"
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep6.php:27
+msgid "I agree to receive your newsletters and accept the data privacy statement."
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep6.php:29
+msgid "This will delete your previous WordPress starter template."
+msgstr ""
+
+#: admin/partials/submenu-dashboardstep6.php:31
+msgid "Submit & Build My Website"
+msgstr ""
+
+#: admin/partials/submenu-progress.php:16
+msgid "We are building your website"
+msgstr ""
+
+#: admin/partials/submenu-progress.php:19
+msgid "Installing required theme, plugins, forms, etc"
+msgstr ""
+
+#: admin/partials/submenu-progress.php:22
+msgid "0%"
+msgstr ""
+
+#: admin/partials/submenu-progress.php:38
+msgid "Installing & Activated Theme & Plugins..."
+msgstr ""
+
+#: admin/partials/submenu-progress.php:64
+msgid "Did you know?"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:11
+msgid "Get Started With Our Free And Pro Starter Templates"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:16
+#: admin/partials/submenu-starter.php:24
+msgid "All"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:17
+msgid "Blog"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:18
+msgid "News"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:23
+msgid "Populer"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:25
+#: admin/partials/submenu-starter.php:202
+#: admin/starter-templates.php:130
+#: admin/starter-templates.php:159
+#: admin/starter-templates.php:254
+#: admin/starter-templates.php:284
+#: admin/starter-templates.php:394
+msgid "New"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:40
+msgid "Pick your layout"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:42
+msgid "Search in over"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:73
+msgid " total layouts"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:85
+msgid "Categories"
+msgstr ""
+
+#: admin/partials/submenu-starter.php:206
+#: admin/starter-templates.php:134
+#: admin/starter-templates.php:163
+#: admin/starter-templates.php:258
+#: admin/starter-templates.php:288
+#: admin/starter-templates.php:398
+msgid "Ideal for: "
+msgstr ""
+
+#: admin/partials/submenu-starter.php:241
+msgid "Load More"
+msgstr ""
+
+#: admin/partials/submenu-type.php:8
+msgid "Select Your Favorite Page Builder"
+msgstr ""
+
+#: admin/partials/submenu-type.php:13
+msgid "Elementor"
+msgstr ""
+
+#: admin/partials/submenu-video.php:11
+msgid "Get Started With Our Ready Pre-Made Templates"
+msgstr ""
+
+#: admin/partials/submenu-video.php:13
+msgid "Kickstart your projects effortlessly with our ready pre-made templates. Perfect for any task, from presentations to websites, our user-friendly designs ensure high-quality results with minimal effort. Explore our diverse collection and find your ideal template today."
+msgstr ""
+
+#: elementor/widgets/widget-base/widget-base.php:27
+msgid "Typography"
+msgstr ""
+
+#: elementor/widgets/widget-base/widget-base.php:38
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/widget-base/widget-base.php:55
+msgid "Padding"
+msgstr ""
+
+#: elementor/widgets/widget-base/widget-base.php:69
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:39
+msgid "Solace Form Builder"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:98
+msgid "Form Fields"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:107
+msgid "Type"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:111
+#: elementor/widgets/widget/form-builder.php:621
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:112
+#: elementor/widgets/widget/form-builder.php:733
+msgid "Email"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:113
+msgid "Textarea"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:114
+msgid "URL"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:115
+msgid "Tel"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:116
+msgid "Radio"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:117
+msgid "Select"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:118
+msgid "Checkbox"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:119
+msgid "Number"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:120
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:121
+msgid "Time"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:122
+msgid "File"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:123
+msgid "Password"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:124
+#: elementor/widgets/widget/form-builder.php:207
+msgid "HTML"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:125
+msgid "Hidden"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:126
+msgid "reCAPTCHA"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:134
+msgid "Rows"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:151
+msgid "Options"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:153
+msgid "Enter each option in a new line."
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:173
+msgid "Allowed File Types"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:175
+msgid ".pdf,.jpg,.txt"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:190
+msgid "Multiple Files"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:243
+#: elementor/widgets/widget/form-builder.php:562
+msgid "Label"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:263
+msgid "Site Key"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:282
+msgid "Placeholder"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:309
+msgid "Default value"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:333
+msgid "Name"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:335
+msgid "Name is required. It is used to send the data to your email."
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:373
+msgid "Column Width"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:377
+msgid "20%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:378
+msgid "25%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:379
+msgid "33%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:380
+msgid "40%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:381
+msgid "50%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:382
+msgid "60%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:383
+msgid "66%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:384
+msgid "75%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:385
+msgid "80%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:386
+msgid "100%"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:430
+msgid "Required"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:432
+#: elementor/widgets/widget/form-builder.php:710
+msgid "Yes"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:433
+#: elementor/widgets/widget/form-builder.php:711
+msgid "No"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:481
+msgid "Custom Class"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:505
+msgid "Custom ID"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:528
+#: elementor/widgets/widget/form-builder.php:781
+msgid "Fields"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:565
+#: elementor/widgets/widget/form-builder.php:576
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:566
+#: elementor/widgets/widget/form-builder.php:577
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:574
+msgid "Required Mark"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:594
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:598
+#: elementor/widgets/widget/form-builder.php:646
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:602
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:606
+#: elementor/widgets/widget/form-builder.php:650
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:630
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:642
+msgid "Icon Position"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:662
+msgid "Button ID"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:672
+msgid "Messages"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:679
+msgid "Success Message"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:681
+msgid "Your message has been sent"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:689
+msgid "Error Message"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:691
+msgid "Can't send the email"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:701
+msgid "Redirect"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:708
+msgid "Redirect to another URL"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:719
+msgid "Redirect To"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:721
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:740
+msgid "To"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:748
+msgid "Subject"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:763
+msgid "From Email"
+msgstr ""
+
+#: elementor/widgets/widget/form-builder.php:771
+msgid "From Name"
+msgstr ""
+
+#: public/class-solace-extra-public.php:131
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: solace-extra.php:173
+#: solace-extra.php:196
+msgid "Installation successful!"
+msgstr ""

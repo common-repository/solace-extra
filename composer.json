@@ -1,0 +1,31 @@
+{
+    "name": "rico/solace-extra",
+    "autoload": {
+        "psr-4": {
+            "Rico\\SolaceExtra\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rico",
+            "email": "ricodjavaweb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "symfony/browser-kit": "^5.4",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/http-client": "^5.4",
+        "symfony/http-client-contracts": "^2.5.3",
+        "symfony/css-selector": "^5.4"
+
+    },
+	"scripts": {
+		"make-pot": "wp i18n make-pot . languages/solace-extra.pot"
+	},
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
